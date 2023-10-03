@@ -15,6 +15,7 @@
 		180AD0C02ACC00190024428E /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0BF2ACC00190024428E /* AccountView.swift */; };
 		180AD0C22ACC00200024428E /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0C12ACC00200024428E /* OrderView.swift */; };
 		180AD0C42ACC0AEF0024428E /* Appetizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0C32ACC0AEF0024428E /* Appetizer.swift */; };
+		180AD0C62ACC17D90024428E /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0C52ACC17D90024428E /* AppetizerListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		180AD0BF2ACC00190024428E /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		180AD0C12ACC00200024428E /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		180AD0C32ACC0AEF0024428E /* Appetizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appetizer.swift; sourceTree = "<group>"; };
+		180AD0C52ACC17D90024428E /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				180AD0C32ACC0AEF0024428E /* Appetizer.swift */,
 				180AD0B12ACBFFB60024428E /* AppetizerTabView.swift */,
 				180AD0BD2ACC00110024428E /* AppetizerListView.swift */,
+				180AD0C52ACC17D90024428E /* AppetizerListCell.swift */,
 				180AD0BF2ACC00190024428E /* AccountView.swift */,
 				180AD0C12ACC00200024428E /* OrderView.swift */,
 				180AD0B32ACBFFBD0024428E /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				180AD0C42ACC0AEF0024428E /* Appetizer.swift in Sources */,
+				180AD0C62ACC17D90024428E /* AppetizerListCell.swift in Sources */,
 				180AD0C02ACC00190024428E /* AccountView.swift in Sources */,
 				180AD0B22ACBFFB60024428E /* AppetizerTabView.swift in Sources */,
 				180AD0B02ACBFFB60024428E /* AppetizersApp.swift in Sources */,
