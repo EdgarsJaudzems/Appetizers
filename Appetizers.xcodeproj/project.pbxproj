@@ -22,6 +22,7 @@
 		180AD0D02ACC36DF0024428E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0CF2ACC36DF0024428E /* Alert.swift */; };
 		180AD0D42ACC3BC60024428E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0D32ACC3BC60024428E /* LoadingView.swift */; };
 		180AD0D62ACC3DE30024428E /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0D52ACC3DE30024428E /* Color+Ext.swift */; };
+		180AD0D82ACC4A5B0024428E /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0D72ACC4A5B0024428E /* RemoteImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		180AD0CF2ACC36DF0024428E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		180AD0D32ACC3BC60024428E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		180AD0D52ACC3DE30024428E /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		180AD0D72ACC4A5B0024428E /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				180AD0BF2ACC00190024428E /* AccountView.swift */,
 				180AD0C12ACC00200024428E /* OrderView.swift */,
 				180AD0C72ACC19040024428E /* NetworkManager.swift */,
+				180AD0D72ACC4A5B0024428E /* RemoteImage.swift */,
 				180AD0C92ACC1D9E0024428E /* APError.swift */,
 				180AD0D52ACC3DE30024428E /* Color+Ext.swift */,
 				180AD0B32ACBFFBD0024428E /* Assets.xcassets */,
@@ -179,6 +182,7 @@
 				180AD0D42ACC3BC60024428E /* LoadingView.swift in Sources */,
 				180AD0B22ACBFFB60024428E /* AppetizerTabView.swift in Sources */,
 				180AD0C82ACC19040024428E /* NetworkManager.swift in Sources */,
+				180AD0D82ACC4A5B0024428E /* RemoteImage.swift in Sources */,
 				180AD0B02ACBFFB60024428E /* AppetizersApp.swift in Sources */,
 				180AD0D02ACC36DF0024428E /* Alert.swift in Sources */,
 				180AD0BE2ACC00110024428E /* AppetizerListView.swift in Sources */,
