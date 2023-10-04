@@ -32,7 +32,7 @@ struct AlertContext {
         title: Text("Server error"),
         message: Text("Unable to complete your request at this time"),
         dismissButton: .default(Text("Ok")))
-   
+    
     // MARK: - Account Alerts
     static let invalidForm = AlertItem(
         title: Text("Invalid Form"),

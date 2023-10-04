@@ -12,6 +12,8 @@ struct AppetizerDetailView: View {
     let appetizer: Appetizer
     @Binding var isShowingDetail: Bool
     
+    @EnvironmentObject var order: Order
+    
     var body: some View {
         VStack {
             AppetizerRemoteImage(urlString: appetizer.imageURL)
@@ -38,7 +40,9 @@ struct AppetizerDetailView: View {
             Spacer()
             
             Button {
-                print("tapped")
+                order.add(appetizer)
+                isShowingDetail = false
+                
             } label: {
                 APButton(title: "$\(appetizer.price, specifier: "%.2f") - Add to Order")
             }
@@ -51,9 +55,9 @@ struct AppetizerDetailView: View {
         .shadow(radius: 40)
         .overlay(Button {
             isShowingDetail = false
-            } label: {
-                XDismissButton()
-            }, alignment: .topTrailing)
+        } label: {
+            XDismissButton()
+        }, alignment: .topTrailing)
     }
 }
 

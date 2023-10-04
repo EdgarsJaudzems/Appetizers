@@ -30,6 +30,7 @@
 		180AD0F32ACD6EA50024428E /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0F22ACD6EA50024428E /* String+Ext.swift */; };
 		180AD0F52ACD82FA0024428E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0F42ACD82FA0024428E /* User.swift */; };
 		180AD0F82ACD93F80024428E /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0F72ACD93F80024428E /* EmptyState.swift */; };
+		180AD0FA2ACD9B680024428E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AD0F92ACD9B680024428E /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		180AD0F22ACD6EA50024428E /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		180AD0F42ACD82FA0024428E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		180AD0F72ACD93F80024428E /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		180AD0F92ACD9B680024428E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 			children = (
 				180AD0C32ACC0AEF0024428E /* Appetizer.swift */,
 				180AD0F42ACD82FA0024428E /* User.swift */,
+				180AD0F92ACD9B680024428E /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				180AD0CA2ACC1D9E0024428E /* APError.swift in Sources */,
 				180AD0C62ACC17D90024428E /* AppetizerListCell.swift in Sources */,
 				180AD0CE2ACC32F80024428E /* AppetizerListViewModel.swift in Sources */,
+				180AD0FA2ACD9B680024428E /* Order.swift in Sources */,
 				180AD0F12ACD6D460024428E /* AccountViewModel.swift in Sources */,
 				180AD0D62ACC3DE30024428E /* Color+Ext.swift in Sources */,
 				180AD0C02ACC00190024428E /* AccountView.swift in Sources */,

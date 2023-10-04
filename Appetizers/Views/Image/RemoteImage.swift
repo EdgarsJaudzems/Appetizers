@@ -17,7 +17,7 @@ final class ImageLoader: ObservableObject {
             guard let uiImage = uiImage else {
                 return
             }
-        
+            
             DispatchQueue.main.async {
                 self.image = Image(uiImage: uiImage)
             }

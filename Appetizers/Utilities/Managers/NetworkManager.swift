@@ -57,7 +57,7 @@ final class NetworkManager {
     }
     
     func downloadImage(fromURLString urlString: String, completed: @escaping (UIImage?) -> Void) {
-       
+        
         // Check for cached image
         let cacheKey = NSString(string: urlString)
         
@@ -71,7 +71,7 @@ final class NetworkManager {
             completed(nil)
             return
         }
-
+        
         // URL data task
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
             
